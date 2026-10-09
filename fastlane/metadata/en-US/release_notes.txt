@@ -1,0 +1,18 @@
+Version 1.0. Initial release of Spinola, a wait clock for people who have several things they might buy and do not want every timer running at once.
+
+• File a buy with a name, a price, Priority, Need, and Discount
+• A cooling span in hours, from the price against the monthly limit and those sliders
+• One clock cooling at a time
+• Frozen tiles that keep the hours they already stored
+• Swap the tick by tapping a frozen tile
+• Donate frozen hours toward release
+• A short gift that stays on the shelf and writes a short mark
+• Release when the ring reads zero, which marks that buy as bought
+• Peel to restore the previous cooling tile after the latest swap or donate
+• Marks timeline (Swap, Donate, Release, Short)
+• Monthly limit, default Need, and default Discount in Rules
+• Currency on the bento: USD, EUR, GBP, or JPY
+• Single tick explainer
+• Show the intro again
+• Reset the shelf
+• Contact

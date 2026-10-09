@@ -1,0 +1,18 @@
+Versi 1.0. Keluaran pertama Spinola, jam tunggu untuk orang yang mempunyai beberapa barang yang mungkin dibeli dan tidak mahu setiap pemasa berjalan sekali gus.
+
+• Catatkan belian dengan nama, harga, Keutamaan, Keperluan, dan Diskaun
+• Tempoh penyejukan dalam jam, daripada harga berbanding had bulanan dan peluncur itu
+• Satu jam sahaja menyejuk pada satu masa
+• Jubin beku yang mengekalkan jam yang sudah disimpan
+• Tukar detik dengan mengetik jubin beku
+• Derma jam beku ke arah lepas
+• Hadiah pendek yang kekal di rak dan menulis tanda pendek
+• Lepas apabila gelang menunjukkan sifar, yang menandai belian itu sebagai dibeli
+• Kupas untuk memulihkan jubin penyejukan sebelumnya selepas tukar atau derma terkini
+• Garis masa tanda (Tukar, Derma, Lepas, Pendek)
+• Had bulanan, Keperluan lalai, dan Diskaun lalai dalam Peraturan
+• Mata wang pada bento: USD, EUR, GBP, atau JPY
+• Penjelasan detik tunggal
+• Tunjuk pengenalan semula
+• Set semula rak
+• Hubungi

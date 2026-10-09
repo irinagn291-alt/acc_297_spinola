@@ -1,0 +1,17 @@
+No permissions appear at any point. The app requests none.
+
+There is no login, no in-app purchase, no user-generated content, no account deletion flow, and no App Tracking Transparency prompt.
+
+Spinola is a wait clock for people who have several things they might buy and do not want every timer running at once. You file possible buys; only one clock cools while the rest stay frozen. When the cooling ring reads zero you mark that buy as bought, or you donate frozen hours from another tile to finish sooner.
+
+No credentials or demo account are needed. Cold launch is a system-generated dark launch screen with no wordmark, then the three-page intro if it has not been finished. On page 1, title "One clock cools at a time", tap "Next" or "Skip". On page 2, title "Swap the tick", tap "Next" or "Skip". On page 3, title "Your monthly limit", field "Monthly limit" prefilled with the locale-formatted default 2000 (for example "2,000"), sliders "Need 40" and "Discount 20", tap "Continue" or "Skip". "Skip" on any page leaves the intro, keeps the default monthly limit of 2000, sets Need to 40 and Discount to 20, and opens Home. A valid "Continue" saves that limit plus Need and Discount and opens Home. A later launch that already finished the intro goes straight to Home.
+
+On Home, when the screen shows "Nothing is cooling", tap "File" to open File a buy. Enter "Name" and "Price", set "Priority ", "Need ", and "Discount ", then tap "File". The first file on an empty bento becomes the cooling tile; a later file joins the frozen tiles. Tap a frozen tile labeled "Swap the tick" to move the clock. Tap "Donate" or the wide tile "Cooling now" to open Donate hours and tap a "Donate" row. When the tile reads "Ready to release", tap it or the full-width "Release" to mark that buy as bought. After a swap or donate, tap "Peel" to restore the previous cooling tile. Tap "Marks" to open Review, the "Single tick" icon for Single tick (then "Back to the bento"), the "Rules" icon to edit "Monthly limit", "Default need ", and "Default discount " then "Save", and the "Settings" icon for "Currency" (USD, EUR, GBP, or JPY), "Contact", "Show the intro again", and "Reset the shelf" (confirm "Reset the shelf?").
+
+Buys, hours, marks, and rules stay on this device. "Contact" in Settings opens the support page.
+
+English copy only. Numbers, currency amounts, and mark dates follow the device locale and calendar. Currency is whichever of USD, EUR, GBP, or JPY you pick; there is no storefront or region lock. Portrait only, full screen, on iPhone and iPad. Dark appearance is fixed. Minimum iOS 17.0.
+
+No licence or regulated-industry paperwork applies. The app is a personal wait clock under Finance and does not process payments or hold funds.
+
+The app is a personal log only and gives no recommendations. It does not show health, medical, or product-health information.

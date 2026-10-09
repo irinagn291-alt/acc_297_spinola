@@ -1,0 +1,1 @@
+File possible buys. Only one clock cools; the rest stay frozen. Swap the tick, donate frozen hours, or Release when the ring reads zero.

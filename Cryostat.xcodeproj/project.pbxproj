@@ -1,0 +1,733 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0AF4A115FFBB9B2FF0B3965B /* ActiveTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0580A13412CFBACC40505D28 /* ActiveTile.swift */; };
+		0FE6ACB9FB6C94C136349339 /* ParticleField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B98F4618065647344F7467 /* ParticleField.swift */; };
+		12479F0F3FF0B12ABFC11B4B /* SpanRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEFD47357A0D3A7BC0A7348 /* SpanRule.swift */; };
+		1565D7A48CD4CA650169DE15 /* Measure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3C0F2AE701E5B70C584FD2 /* Measure.swift */; };
+		1B7D023BB073CAF565A16DEA /* BentoFold.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F11C933C4197AAFD90404F9 /* BentoFold.swift */; };
+		1E310312F3F94066C53D92C7 /* DayStamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6D6EF6BB473F5591C8973E /* DayStamp.swift */; };
+		2EBB1E8623C60389F0D4A0B1 /* BentoStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6C198BCE393E69F48A6180 /* BentoStore.swift */; };
+		36E8E5882B736A8E84228FE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2554A604746FEFB1424C4AFB /* Assets.xcassets */; };
+		3D885C09C652B6ACC84FE17B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657D26A83CB12B5CD7486999 /* ContentView.swift */; };
+		4227B1FEC5C1D339A2823DDD /* ReleaseScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EFEDB132A5F3B1D7037C524 /* ReleaseScreen.swift */; };
+		43C968349148ABF67E9C4EEC /* CryostatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EBB2DF272BC1D86C41F0075 /* CryostatTests.swift */; };
+		4BA2801607F1DA0985282093 /* SwapMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FE4B279109AD6C4E68B9F0 /* SwapMark.swift */; };
+		4BC81E9363B2F94A293C6982 /* FileComposer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0856BA8BFF8B2B56D9229A18 /* FileComposer.swift */; };
+		50B53F71B1831323ACE1704A /* SettingsSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2CE267BDAFD3617801EA7E /* SettingsSheet.swift */; };
+		55513566EB4F7DFC2CF1FF6F /* HomeBento.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C9FAEC6F76C4334F2B7C9D /* HomeBento.swift */; };
+		5A781B0BADD16E2048B41048 /* ShortMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6AADBAE484CCFB2C4E8FDB2 /* ShortMark.swift */; };
+		5F0570B538CAE700C1D16AC4 /* ReviewLaunch.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2D117867993E56FEB40462 /* ReviewLaunch.swift */; };
+		5FD9ACCD8E4BE93361EEA22B /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = E8E000EDE983A485712E20D8 /* Alamofire */; };
+		6A95F62628BD469F1F903A7F /* RulesSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784BC39FB0E70FDC57D93B40 /* RulesSheet.swift */; };
+		729105093177B083E37B3862 /* OnboardFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654455E8E25636AE7C5C98D1 /* OnboardFlow.swift */; };
+		798D1D4CCF503DECB09FC45A /* Want.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C9A757353525A022F18EC0 /* Want.swift */; };
+		87A65DA896DD4347E43CC5AB /* TickSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = C82D55CF77996AD28DCEF9D4 /* TickSheet.swift */; };
+		8D0F9CD67715CAD59B50E7C1 /* BentoChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF68D7C9E9268E3D76ADC8C /* BentoChart.swift */; };
+		8E5EFE62DF19F001B09377D7 /* CryostatApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19F4F30BA1EA33186A1C803 /* CryostatApp.swift */; };
+		9B1441C6284A4B382CAA8F4B /* SwapScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 037EFC3E22E15FE034FFB12C /* SwapScreen.swift */; };
+		9DFCED6D653E376DB2D90822 /* HoursSpan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0841606D02FF29142923BD1A /* HoursSpan.swift */; };
+		9FF514397F6E22F6DA52A51C /* DesignTokens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D207635B2A22FE2E359D49D /* DesignTokens.swift */; };
+		A08099C4276BB8E0D80447C5 /* BentoDeck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324AE06BBFC21A3308F68CE3 /* BentoDeck.swift */; };
+		B300D1C482E9E16CE42ED84D /* DonateMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0028B92C5E89E1F897781AA /* DonateMark.swift */; };
+		C84E54EEE05AAC10DD5D26CB /* ReviewTimeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1271572C0F207748C6C59266 /* ReviewTimeline.swift */; };
+		CE4184652AEF9485F1026F04 /* ReleaseMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDDAB302878236CE8E84B3A /* ReleaseMark.swift */; };
+		DF487BCD721A4FDE09E55053 /* DonateSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0423E340713D256CC7D383 /* DonateSheet.swift */; };
+		EAD4BBB352A8852A26E83328 /* AppsFlyerLib-Static in Frameworks */ = {isa = PBXBuildFile; productRef = 7DEDD479E971717079CAC74D /* AppsFlyerLib-Static */; };
+		EC4DD8FA6F0196DCEFA1C701 /* APIConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE85CD5C0EC635D92C53194D /* APIConfig.swift */; };
+		EF70EE3548FF856F4CADA734 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CEC6AF9F9E6F7F37F3A1655 /* AppDelegate.swift */; };
+		F477BC699FD5E0D15084F9AE /* ShelfTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF473E0413589BC2690423BF /* ShelfTile.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		39AD949CD70F0C9F598C48F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 094872AC5573C51C00B4120E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79DEBFD6B87CA2351A9DC77D;
+			remoteInfo = Cryostat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		037EFC3E22E15FE034FFB12C /* SwapScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwapScreen.swift; sourceTree = "<group>"; };
+		0580A13412CFBACC40505D28 /* ActiveTile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveTile.swift; sourceTree = "<group>"; };
+		0841606D02FF29142923BD1A /* HoursSpan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoursSpan.swift; sourceTree = "<group>"; };
+		0856BA8BFF8B2B56D9229A18 /* FileComposer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileComposer.swift; sourceTree = "<group>"; };
+		1271572C0F207748C6C59266 /* ReviewTimeline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewTimeline.swift; sourceTree = "<group>"; };
+		13B98F4618065647344F7467 /* ParticleField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticleField.swift; sourceTree = "<group>"; };
+		2554A604746FEFB1424C4AFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2EFEDB132A5F3B1D7037C524 /* ReleaseScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReleaseScreen.swift; sourceTree = "<group>"; };
+		324AE06BBFC21A3308F68CE3 /* BentoDeck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BentoDeck.swift; sourceTree = "<group>"; };
+		4C2CE267BDAFD3617801EA7E /* SettingsSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsSheet.swift; sourceTree = "<group>"; };
+		4CEC6AF9F9E6F7F37F3A1655 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		585855DFA51664BB35B5D932 /* Cryostat.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Cryostat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F11C933C4197AAFD90404F9 /* BentoFold.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BentoFold.swift; sourceTree = "<group>"; };
+		60C9FAEC6F76C4334F2B7C9D /* HomeBento.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeBento.swift; sourceTree = "<group>"; };
+		654455E8E25636AE7C5C98D1 /* OnboardFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardFlow.swift; sourceTree = "<group>"; };
+		657D26A83CB12B5CD7486999 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		784BC39FB0E70FDC57D93B40 /* RulesSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RulesSheet.swift; sourceTree = "<group>"; };
+		88C9A757353525A022F18EC0 /* Want.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Want.swift; sourceTree = "<group>"; };
+		8B6D6EF6BB473F5591C8973E /* DayStamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayStamp.swift; sourceTree = "<group>"; };
+		9B3C0F2AE701E5B70C584FD2 /* Measure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Measure.swift; sourceTree = "<group>"; };
+		9D207635B2A22FE2E359D49D /* DesignTokens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignTokens.swift; sourceTree = "<group>"; };
+		9EBB2DF272BC1D86C41F0075 /* CryostatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryostatTests.swift; sourceTree = "<group>"; };
+		BC0423E340713D256CC7D383 /* DonateSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonateSheet.swift; sourceTree = "<group>"; };
+		C19F4F30BA1EA33186A1C803 /* CryostatApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryostatApp.swift; sourceTree = "<group>"; };
+		C4FE4B279109AD6C4E68B9F0 /* SwapMark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwapMark.swift; sourceTree = "<group>"; };
+		C82D55CF77996AD28DCEF9D4 /* TickSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TickSheet.swift; sourceTree = "<group>"; };
+		CE6C198BCE393E69F48A6180 /* BentoStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BentoStore.swift; sourceTree = "<group>"; };
+		CE85CD5C0EC635D92C53194D /* APIConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConfig.swift; sourceTree = "<group>"; };
+		CF473E0413589BC2690423BF /* ShelfTile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShelfTile.swift; sourceTree = "<group>"; };
+		DC2D117867993E56FEB40462 /* ReviewLaunch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewLaunch.swift; sourceTree = "<group>"; };
+		DCDDAB302878236CE8E84B3A /* ReleaseMark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReleaseMark.swift; sourceTree = "<group>"; };
+		DCF68D7C9E9268E3D76ADC8C /* BentoChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BentoChart.swift; sourceTree = "<group>"; };
+		E6AADBAE484CCFB2C4E8FDB2 /* ShortMark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortMark.swift; sourceTree = "<group>"; };
+		E97F24E3B4C163BA7DD402D6 /* CryostatTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = CryostatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0028B92C5E89E1F897781AA /* DonateMark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonateMark.swift; sourceTree = "<group>"; };
+		FBEFD47357A0D3A7BC0A7348 /* SpanRule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpanRule.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E6BF93FEC00B090B1811C489 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FD9ACCD8E4BE93361EEA22B /* Alamofire in Frameworks */,
+				EAD4BBB352A8852A26E83328 /* AppsFlyerLib-Static in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22D2FC4800BCCBD01B17A44C /* CryostatTests */ = {
+			isa = PBXGroup;
+			children = (
+				9EBB2DF272BC1D86C41F0075 /* CryostatTests.swift */,
+			);
+			path = CryostatTests;
+			sourceTree = "<group>";
+		};
+		2599537BFA92DBA63700524C /* SwapMark */ = {
+			isa = PBXGroup;
+			children = (
+				C4FE4B279109AD6C4E68B9F0 /* SwapMark.swift */,
+			);
+			path = SwapMark;
+			sourceTree = "<group>";
+		};
+		4C72B4CCA0704A1868EFF095 /* Cryostat */ = {
+			isa = PBXGroup;
+			children = (
+				CE85CD5C0EC635D92C53194D /* APIConfig.swift */,
+				4CEC6AF9F9E6F7F37F3A1655 /* AppDelegate.swift */,
+				2554A604746FEFB1424C4AFB /* Assets.xcassets */,
+				657D26A83CB12B5CD7486999 /* ContentView.swift */,
+				C19F4F30BA1EA33186A1C803 /* CryostatApp.swift */,
+				9D207635B2A22FE2E359D49D /* DesignTokens.swift */,
+				DC2D117867993E56FEB40462 /* ReviewLaunch.swift */,
+				80393FE3DEFE87356C13BABC /* Active */,
+				F86995CC70E2506D3B499952 /* Bento */,
+				9735A084EC7D7D355D36C3CC /* Chrome */,
+				E78DE202A6A02CE853F70093 /* DonateMark */,
+				DEC5EC259AE7D0A09BF8C11B /* Onboard */,
+				AEE650CDD5925541D7E592BA /* ReleaseMark */,
+				AF0FAA88B6A62115544E2D08 /* Review */,
+				990063FE89B44FAAFF75EE6A /* Rules */,
+				E8D677BBFA78255E862250EB /* Settings */,
+				F465F67318BAE6113BBC26E6 /* Shelf */,
+				98A3EB314657483E15C790ED /* ShortMark */,
+				4E578349BE1993A86A5BC73F /* Store */,
+				2599537BFA92DBA63700524C /* SwapMark */,
+				8B31DF5A7CC0F9BD55CCD3EE /* Want */,
+			);
+			path = Cryostat;
+			sourceTree = "<group>";
+		};
+		4E578349BE1993A86A5BC73F /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				DCF68D7C9E9268E3D76ADC8C /* BentoChart.swift */,
+				CE6C198BCE393E69F48A6180 /* BentoStore.swift */,
+				8B6D6EF6BB473F5591C8973E /* DayStamp.swift */,
+			);
+			path = Store;
+			sourceTree = "<group>";
+		};
+		80393FE3DEFE87356C13BABC /* Active */ = {
+			isa = PBXGroup;
+			children = (
+				0580A13412CFBACC40505D28 /* ActiveTile.swift */,
+			);
+			path = Active;
+			sourceTree = "<group>";
+		};
+		8B31DF5A7CC0F9BD55CCD3EE /* Want */ = {
+			isa = PBXGroup;
+			children = (
+				0856BA8BFF8B2B56D9229A18 /* FileComposer.swift */,
+				0841606D02FF29142923BD1A /* HoursSpan.swift */,
+				88C9A757353525A022F18EC0 /* Want.swift */,
+			);
+			path = Want;
+			sourceTree = "<group>";
+		};
+		943C323BFFD80AD18BCD2C3F = {
+			isa = PBXGroup;
+			children = (
+				4C72B4CCA0704A1868EFF095 /* Cryostat */,
+				22D2FC4800BCCBD01B17A44C /* CryostatTests */,
+				CB3DD4C779EF5B96D6AD2A16 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9735A084EC7D7D355D36C3CC /* Chrome */ = {
+			isa = PBXGroup;
+			children = (
+				324AE06BBFC21A3308F68CE3 /* BentoDeck.swift */,
+				9B3C0F2AE701E5B70C584FD2 /* Measure.swift */,
+			);
+			path = Chrome;
+			sourceTree = "<group>";
+		};
+		98A3EB314657483E15C790ED /* ShortMark */ = {
+			isa = PBXGroup;
+			children = (
+				E6AADBAE484CCFB2C4E8FDB2 /* ShortMark.swift */,
+			);
+			path = ShortMark;
+			sourceTree = "<group>";
+		};
+		990063FE89B44FAAFF75EE6A /* Rules */ = {
+			isa = PBXGroup;
+			children = (
+				784BC39FB0E70FDC57D93B40 /* RulesSheet.swift */,
+				FBEFD47357A0D3A7BC0A7348 /* SpanRule.swift */,
+			);
+			path = Rules;
+			sourceTree = "<group>";
+		};
+		AEE650CDD5925541D7E592BA /* ReleaseMark */ = {
+			isa = PBXGroup;
+			children = (
+				DCDDAB302878236CE8E84B3A /* ReleaseMark.swift */,
+			);
+			path = ReleaseMark;
+			sourceTree = "<group>";
+		};
+		AF0FAA88B6A62115544E2D08 /* Review */ = {
+			isa = PBXGroup;
+			children = (
+				1271572C0F207748C6C59266 /* ReviewTimeline.swift */,
+			);
+			path = Review;
+			sourceTree = "<group>";
+		};
+		CB3DD4C779EF5B96D6AD2A16 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				585855DFA51664BB35B5D932 /* Cryostat.app */,
+				E97F24E3B4C163BA7DD402D6 /* CryostatTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DEC5EC259AE7D0A09BF8C11B /* Onboard */ = {
+			isa = PBXGroup;
+			children = (
+				654455E8E25636AE7C5C98D1 /* OnboardFlow.swift */,
+			);
+			path = Onboard;
+			sourceTree = "<group>";
+		};
+		E78DE202A6A02CE853F70093 /* DonateMark */ = {
+			isa = PBXGroup;
+			children = (
+				F0028B92C5E89E1F897781AA /* DonateMark.swift */,
+			);
+			path = DonateMark;
+			sourceTree = "<group>";
+		};
+		E8D677BBFA78255E862250EB /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				4C2CE267BDAFD3617801EA7E /* SettingsSheet.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		F465F67318BAE6113BBC26E6 /* Shelf */ = {
+			isa = PBXGroup;
+			children = (
+				CF473E0413589BC2690423BF /* ShelfTile.swift */,
+			);
+			path = Shelf;
+			sourceTree = "<group>";
+		};
+		F86995CC70E2506D3B499952 /* Bento */ = {
+			isa = PBXGroup;
+			children = (
+				5F11C933C4197AAFD90404F9 /* BentoFold.swift */,
+				BC0423E340713D256CC7D383 /* DonateSheet.swift */,
+				60C9FAEC6F76C4334F2B7C9D /* HomeBento.swift */,
+				13B98F4618065647344F7467 /* ParticleField.swift */,
+				2EFEDB132A5F3B1D7037C524 /* ReleaseScreen.swift */,
+				037EFC3E22E15FE034FFB12C /* SwapScreen.swift */,
+				C82D55CF77996AD28DCEF9D4 /* TickSheet.swift */,
+			);
+			path = Bento;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		435E95F57494147E7C0E2499 /* CryostatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C75F010C41D427BD6864D31E /* Build configuration list for PBXNativeTarget "CryostatTests" */;
+			buildPhases = (
+				D16843CC5FB1EB7D5921FC55 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5134E103CEBFA28D8E6D5B34 /* PBXTargetDependency */,
+			);
+			name = CryostatTests;
+			packageProductDependencies = (
+			);
+			productName = CryostatTests;
+			productReference = E97F24E3B4C163BA7DD402D6 /* CryostatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		79DEBFD6B87CA2351A9DC77D /* Cryostat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91B75D95651BE0DD37C1A4DA /* Build configuration list for PBXNativeTarget "Cryostat" */;
+			buildPhases = (
+				BFC355374B9626EACC198251 /* Sources */,
+				CA8C1A8BCD1A44E8D6AC9FB0 /* Resources */,
+				E6BF93FEC00B090B1811C489 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cryostat;
+			packageProductDependencies = (
+				E8E000EDE983A485712E20D8 /* Alamofire */,
+				7DEDD479E971717079CAC74D /* AppsFlyerLib-Static */,
+			);
+			productName = Cryostat;
+			productReference = 585855DFA51664BB35B5D932 /* Cryostat.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		094872AC5573C51C00B4120E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					435E95F57494147E7C0E2499 = {
+						ProvisioningStyle = Automatic;
+					};
+					79DEBFD6B87CA2351A9DC77D = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 90D1362A009ABB76261C43FD /* Build configuration list for PBXProject "Cryostat" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 943C323BFFD80AD18BCD2C3F;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				5A8F2DA004CBFBEDEF531AAE /* XCRemoteSwiftPackageReference "Alamofire" */,
+				F37AC462655B3CC4DC3AE12F /* XCRemoteSwiftPackageReference "AppsFlyerFramework-Static" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = CB3DD4C779EF5B96D6AD2A16 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				79DEBFD6B87CA2351A9DC77D /* Cryostat */,
+				435E95F57494147E7C0E2499 /* CryostatTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA8C1A8BCD1A44E8D6AC9FB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36E8E5882B736A8E84228FE7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BFC355374B9626EACC198251 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC4DD8FA6F0196DCEFA1C701 /* APIConfig.swift in Sources */,
+				0AF4A115FFBB9B2FF0B3965B /* ActiveTile.swift in Sources */,
+				EF70EE3548FF856F4CADA734 /* AppDelegate.swift in Sources */,
+				8D0F9CD67715CAD59B50E7C1 /* BentoChart.swift in Sources */,
+				A08099C4276BB8E0D80447C5 /* BentoDeck.swift in Sources */,
+				1B7D023BB073CAF565A16DEA /* BentoFold.swift in Sources */,
+				2EBB1E8623C60389F0D4A0B1 /* BentoStore.swift in Sources */,
+				3D885C09C652B6ACC84FE17B /* ContentView.swift in Sources */,
+				8E5EFE62DF19F001B09377D7 /* CryostatApp.swift in Sources */,
+				1E310312F3F94066C53D92C7 /* DayStamp.swift in Sources */,
+				9FF514397F6E22F6DA52A51C /* DesignTokens.swift in Sources */,
+				B300D1C482E9E16CE42ED84D /* DonateMark.swift in Sources */,
+				DF487BCD721A4FDE09E55053 /* DonateSheet.swift in Sources */,
+				4BC81E9363B2F94A293C6982 /* FileComposer.swift in Sources */,
+				55513566EB4F7DFC2CF1FF6F /* HomeBento.swift in Sources */,
+				9DFCED6D653E376DB2D90822 /* HoursSpan.swift in Sources */,
+				1565D7A48CD4CA650169DE15 /* Measure.swift in Sources */,
+				729105093177B083E37B3862 /* OnboardFlow.swift in Sources */,
+				0FE6ACB9FB6C94C136349339 /* ParticleField.swift in Sources */,
+				CE4184652AEF9485F1026F04 /* ReleaseMark.swift in Sources */,
+				4227B1FEC5C1D339A2823DDD /* ReleaseScreen.swift in Sources */,
+				5F0570B538CAE700C1D16AC4 /* ReviewLaunch.swift in Sources */,
+				C84E54EEE05AAC10DD5D26CB /* ReviewTimeline.swift in Sources */,
+				6A95F62628BD469F1F903A7F /* RulesSheet.swift in Sources */,
+				50B53F71B1831323ACE1704A /* SettingsSheet.swift in Sources */,
+				F477BC699FD5E0D15084F9AE /* ShelfTile.swift in Sources */,
+				5A781B0BADD16E2048B41048 /* ShortMark.swift in Sources */,
+				12479F0F3FF0B12ABFC11B4B /* SpanRule.swift in Sources */,
+				4BA2801607F1DA0985282093 /* SwapMark.swift in Sources */,
+				9B1441C6284A4B382CAA8F4B /* SwapScreen.swift in Sources */,
+				87A65DA896DD4347E43CC5AB /* TickSheet.swift in Sources */,
+				798D1D4CCF503DECB09FC45A /* Want.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D16843CC5FB1EB7D5921FC55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43C968349148ABF67E9C4EEC /* CryostatTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5134E103CEBFA28D8E6D5B34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79DEBFD6B87CA2351A9DC77D /* Cryostat */;
+			targetProxy = 39AD949CD70F0C9F598C48F5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1C8B23C0668C3AA42A4FEF17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cryostat.bento.tests;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cryostat.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Cryostat";
+			};
+			name = Debug;
+		};
+		3A8E5FEA9C00B3D006E5FD0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+			};
+			name = Debug;
+		};
+		5461CFC8FAF75C906150BB56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Support/Cryostat-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Spinola;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cryostat.bento;
+				PRODUCT_NAME = Cryostat;
+				SDKROOT = iphoneos;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		77B2DAA470511C467E5F0989 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cryostat.bento.tests;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cryostat.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Cryostat";
+			};
+			name = Release;
+		};
+		B36E0B4E51C9373F1670BD82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Support/Cryostat-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Spinola;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cryostat.bento;
+				PRODUCT_NAME = Cryostat;
+				SDKROOT = iphoneos;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BF696ECD563B97EFCA7B08B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		90D1362A009ABB76261C43FD /* Build configuration list for PBXProject "Cryostat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A8E5FEA9C00B3D006E5FD0E /* Debug */,
+				BF696ECD563B97EFCA7B08B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		91B75D95651BE0DD37C1A4DA /* Build configuration list for PBXNativeTarget "Cryostat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B36E0B4E51C9373F1670BD82 /* Debug */,
+				5461CFC8FAF75C906150BB56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C75F010C41D427BD6864D31E /* Build configuration list for PBXNativeTarget "CryostatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C8B23C0668C3AA42A4FEF17 /* Debug */,
+				77B2DAA470511C467E5F0989 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5A8F2DA004CBFBEDEF531AAE /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/rg8tv2gc29-tech/Alamofire";
+			requirement = {
+				kind = revision;
+				revision = 3ea8e93ec37a3ae5f255afb529ef20f438dd1903;
+			};
+		};
+		F37AC462655B3CC4DC3AE12F /* XCRemoteSwiftPackageReference "AppsFlyerFramework-Static" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AppsFlyerSDK/AppsFlyerFramework-Static";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.17.9;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7DEDD479E971717079CAC74D /* AppsFlyerLib-Static */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F37AC462655B3CC4DC3AE12F /* XCRemoteSwiftPackageReference "AppsFlyerFramework-Static" */;
+			productName = "AppsFlyerLib-Static";
+		};
+		E8E000EDE983A485712E20D8 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5A8F2DA004CBFBEDEF531AAE /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 094872AC5573C51C00B4120E /* Project object */;
+}
