@@ -1,4 +1,4 @@
-<!-- gf-brief source=26f5d1ad15d4c7e3495c6a70478de00cdda904793471cddd6dadfc38571d414d written=2026-10-09T14:39:04+03:00 -->
+<!-- gf-brief source=26f5d1ad15d4c7e3495c6a70478de00cdda904793471cddd6dadfc38571d414d written=2026-10-09T14:42:11+03:00 -->
 # Spinola
 
 ## What it is
