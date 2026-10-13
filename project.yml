@@ -33,6 +33,7 @@ targets:
         PRODUCT_BUNDLE_IDENTIFIER: com.cryostat.bento
         PRODUCT_NAME: Cryostat
         GENERATE_INFOPLIST_FILE: 'YES'
+        INFOPLIST_KEY_NSUserTrackingUsageDescription: "We use this identifier to personalize your experience and measure app performance."
         INFOPLIST_KEY_ITSAppUsesNonExemptEncryption: 'NO'
         INFOPLIST_KEY_CFBundleDisplayName: Spinola
         INFOPLIST_KEY_UILaunchScreen_Generation: 'YES'
